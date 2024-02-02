@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "extracao-codigo-boleto"
+version = "0.1.0"
+description = ""
+authors = ["matheusBenedihtCaldeira <matheusbenediht@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+playwright = "^1.41.1"
+
+[tool.poetry.scripts]
+main-task = 'extracao_codigo_boleto.main:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
